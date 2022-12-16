@@ -25,7 +25,7 @@ public class Main {
         List<Book> books = Arrays.asList(new Book(1L, "Bir gana sen", Genre.ROMANCE, BigDecimal.valueOf(300), "Nurjigit Kadyrbekov", Language.KYRGYZ, LocalDate.of(2021, 4, 6)),
                 new Book(2L, "Bai atam, kedei atam", Genre.FANTASY, BigDecimal.valueOf(500), "Nick vuichich", Language.RUSSIAN, LocalDate.of(2020, 4, 6)),
                 new Book(3L, "Jamilya", Genre.HISTORICAL, BigDecimal.valueOf(400), "CH.Aitmatov", Language.KYRGYZ, LocalDate.of(2018, 4, 7)),
-                new Book(4L, "Kosmos", Genre.FANTASY, BigDecimal.valueOf(300), "Mark", Language.ENGLISH, LocalDate.of(2000, 3, 2)),
+                new Book(4L, "Kosmos", Genre.FANTASY, BigDecimal.valueOf(300), "Mayiuyirk", Language.ENGLISH, LocalDate.of(2000, 3, 2)),
                 new Book(5L, "Live is good", Genre.DETECTIVE, BigDecimal.valueOf(700), "Martin", Language.ENGLISH, LocalDate.of(2003, 7, 3)));
 
         BookImpl book = new BookImpl();
